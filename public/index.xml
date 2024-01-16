@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Blog of Dan Esparza</title>
+    <link>https://danesparza.github.io/</link>
+    <description>Recent content on The Blog of Dan Esparza</description>
+    <image>
+      <title>The Blog of Dan Esparza</title>
+      <url>https://danesparza.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://danesparza.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 22 Dec 2022 10:24:05 -0500</lastBuildDate>
+    <atom:link href="https://danesparza.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Use Branches With Go Modules</title>
+      <link>https://danesparza.github.io/2022/12/use-branches-with-go-modules/</link>
+      <pubDate>Thu, 22 Dec 2022 10:24:05 -0500</pubDate>
+      <guid>https://danesparza.github.io/2022/12/use-branches-with-go-modules/</guid>
+      <description>When developing with Go on a team, it is useful to have a good branching strategy so you can work together as a team and not tromp on each others changes.
+But how do you use Go modules with a branching strategy? It&amp;rsquo;s easy to refer to another project (even at a certain version) &amp;ndash; but branches seem to offer a bit of a challenge.
+The official guidance involves using the specific commit hash for the module you want, like this:</description>
+    </item>
+    <item>
+      <title>A modern Javascript workflow</title>
+      <link>https://danesparza.github.io/2015/10/modern-javascript-workflow/</link>
+      <pubDate>Sat, 17 Oct 2015 14:08:44 -0500</pubDate>
+      <guid>https://danesparza.github.io/2015/10/modern-javascript-workflow/</guid>
+      <description>Let&amp;rsquo;s talk about your development workflow. If you&amp;rsquo;re still including all of your scripts in your pages using a &amp;lt;script&amp;gt; tag, you&amp;rsquo;re doing it wrong. A modern front-end workflow includes some kind of dependency management solution, and some kind of bundling / minification process.
+Prereqs: Package management and Git console npm Even if you don&amp;rsquo;t use Node.js for your server use npm for managing your client-side dependencies. It really makes adding and removing compenents a breeze!</description>
+    </item>
+    <item>
+      <title>NuGet tips</title>
+      <link>https://danesparza.github.io/2015/04/nuget-tips/</link>
+      <pubDate>Fri, 03 Apr 2015 14:42:44 -0400</pubDate>
+      <guid>https://danesparza.github.io/2015/04/nuget-tips/</guid>
+      <description>Created in 2010, NuGet is a free and open source package manager for the Microsoft development platform. NuGet has become the defacto way of distributing tools and libraries in the Microsoft developer community.
+If you&amp;rsquo;re interested in working with NuGet, here are some tips and tricks that will be helpful to you.
+Creating NuGet packages Creating NuGet packages from scratch can be daunting for a first-timer.
+nuspec != nupkg First, you need to understand that there is a difference between the types of files that NuGet uses:</description>
+    </item>
+    <item>
+      <title>Use Keepass and dropbox to manage your passwords</title>
+      <link>https://danesparza.github.io/2014/09/using-keepass-and-dropbox-to-manage-passwords/</link>
+      <pubDate>Wed, 24 Sep 2014 09:42:44 -0400</pubDate>
+      <guid>https://danesparza.github.io/2014/09/using-keepass-and-dropbox-to-manage-passwords/</guid>
+      <description>Interested in using a password manager for all your passwords?
+You should be.
+Services like OpenId are catching on, but aren&amp;rsquo;t as widespread as originally hoped. You might visit hundreds of different sites a year that use a login and password.
+Using the same password for every website and service is a terrible idea: A hacker just needs to compromise one of the services you visit and they&amp;rsquo;ve got the username/password for all the sites you visit.</description>
+    </item>
+    <item>
+      <title>Using Windows Authentication with IISExpress</title>
+      <link>https://danesparza.github.io/2014/09/using-windows-authentication-with-iisexpress/</link>
+      <pubDate>Tue, 16 Sep 2014 00:00:00 +0000</pubDate>
+      <guid>https://danesparza.github.io/2014/09/using-windows-authentication-with-iisexpress/</guid>
+      <description>I do a lot of development with websites in Visual Studio 2013 nowadays. I&amp;rsquo;ve discovered that in order to use IISExpress with Windows Authentication, I had to jump through some hoops. You may find yourself banging your head on the wall trying to get IISExpress to work with Windows auth &amp;ndash; so here are few tips for you.
+Update your web.config Make sure your web.config file both enables windows authentication and also denies anonymous authentication.</description>
+    </item>
+    <item>
+      <title>Things your Dad never told you about NLog</title>
+      <link>https://danesparza.github.io/2014/06/things-your-dad-never-told-you-about-nlog/</link>
+      <pubDate>Wed, 04 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>https://danesparza.github.io/2014/06/things-your-dad-never-told-you-about-nlog/</guid>
+      <description>I&amp;rsquo;ve had cause to work with NLog a lot lately. In working with it, I have discovered some surprises and tricks that I thought I would share.
+Log levels matter You should think carefully about your log levels as you start adding logging to your app. Trace should probably be used sparingly, because when you turn on log level &amp;lsquo;Trace&amp;rsquo; that means you&amp;rsquo;re pretty much logging EVERYTHING. Log level Debug or Info might be a better level to start with.</description>
+    </item>
+    <item>
+      <title>netsh, Windows 2003 and httpcfg</title>
+      <link>https://danesparza.github.io/2014/03/netsh-and-httpcfg/</link>
+      <pubDate>Mon, 03 Mar 2014 00:00:00 +0000</pubDate>
+      <guid>https://danesparza.github.io/2014/03/netsh-and-httpcfg/</guid>
+      <description>In a previous article, I talked about working with HttpListener. Remember: HttpListener uses http.sys. It&amp;rsquo;s necessary to tell http.sys that a process &amp;amp; user should be allowed to listen to a certain port before that process starts listening. This is called &amp;lsquo;url reservation&amp;rsquo;.
+In Windows Vista and Windows server 2008, the way to do url reservation is with netsh.exe. My development workstation is Windows 7, so I used netsh.exe to get things working locally.</description>
+    </item>
+    <item>
+      <title>Debugging .NET network and certificate issues</title>
+      <link>https://danesparza.github.io/2014/01/debugging-dotnet-network-and-certificate-issues/</link>
+      <pubDate>Fri, 07 Feb 2014 00:00:00 +0000</pubDate>
+      <guid>https://danesparza.github.io/2014/01/debugging-dotnet-network-and-certificate-issues/</guid>
+      <description>Dear Reader, I learned some important things the hard way this week, so I thought I&amp;rsquo;d share the fruits of my agony.
+You must reserve ports when working with HttpListener I&amp;rsquo;m used to letting IIS handle the details of hosting a web service for me, so I wasn&amp;rsquo;t familiar with the ins and outs of netsh. If you self host with OWIN, this apparently gets taken care of for you &amp;ndash; so you don&amp;rsquo;t need to worry about it.</description>
+    </item>
+    <item>
+      <title>Gotchya using data attributes with jQuery</title>
+      <link>https://danesparza.github.io/2014/01/gotchya-using-data-attributes-with-jquery/</link>
+      <pubDate>Wed, 22 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://danesparza.github.io/2014/01/gotchya-using-data-attributes-with-jquery/</guid>
+      <description>Today I discovered an interesting &amp;lsquo;gotchya&amp;rsquo; when using HTML5 data attributes with jQuery. jQuery supports getting these data attributes with the jQuery.data() syntax &amp;hellip; but beware: it will automatically strip hyphens and camel-case hyphenated attributes.
+In other words, if you try to use the following HTML:
+&amp;lt;div data-role=&amp;quot;page&amp;quot; data-last-value=&amp;quot;43&amp;quot; data-hidden=&amp;quot;true&amp;quot; data-options=&#39;{&amp;quot;name&amp;quot;:&amp;quot;John&amp;quot;}&#39;&amp;gt;&amp;lt;/div&amp;gt; &amp;hellip; the data-last-value attribute automatically becomes lastValue when accessing it in jQuery.
+This also introduces another behavior you should be aware of.</description>
+    </item>
+    <item>
+      <title>Hosting a blog on S3 - cheaper and simpler</title>
+      <link>https://danesparza.github.io/2013/11/cheaper-hosting-on-s3/</link>
+      <pubDate>Tue, 19 Nov 2013 00:00:00 +0000</pubDate>
+      <guid>https://danesparza.github.io/2013/11/cheaper-hosting-on-s3/</guid>
+      <description>A few months ago, I covered how to setup a blog using S3, Cloudfront and Route 53 that was dirt cheap, reliable, and fast. Today, I&amp;rsquo;m going to walk through an even simpler and cheaper setup that is just as fast
+Overview Hugo is (still) our foundation. Hugo generates a static site based on Markdown based posts. Getting started with Hugo is a breeze &amp;ndash; it&amp;rsquo;s not as complicated as Jekyll or Octopress.</description>
+    </item>
+    <item>
+      <title>Hosting a blog on S3 and Cloudfront</title>
+      <link>https://danesparza.github.io/2013/07/hosting-a-blog-on-s3-and-cloudfront/</link>
+      <pubDate>Wed, 24 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://danesparza.github.io/2013/07/hosting-a-blog-on-s3-and-cloudfront/</guid>
+      <description>Creating a blog that is easy-to-use, lightning fast, inexpensive, has fewer security problems than Wordpress, and never has downtime might seem impossible … but I think I&amp;rsquo;ve found a way.
+Easy to use Hugo is our foundation. OK &amp;ndash; I&amp;rsquo;ll admit that Hugo isn&amp;rsquo;t exactly easy to use for a non-geek. If you already know a bit of HTML &amp;amp; Javascript, it&amp;rsquo;s a perfect fit for this operation. Hugo generates a static site based on Markdown based posts.</description>
+    </item>
+    <item>
+      <title>Using generic lists in code</title>
+      <link>https://danesparza.github.io/2013/07/using-generic-lists-in-code/</link>
+      <pubDate>Wed, 03 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://danesparza.github.io/2013/07/using-generic-lists-in-code/</guid>
+      <description>For best performance it&amp;rsquo;s usually not a good idea to initialize variables in .NET. When it comes to software maintenance costs, List initialization is a different story, however.
+I&amp;rsquo;ve seen 2 different patterns used when creating lists in C# code recently. One is simply to declare the list and implicitly or explicitly initialize it to null:
+public List&amp;lt;SomeObject&amp;gt; MyListProperty { get; set; } // Implicitly null (Ok) List&amp;lt;SomeObject&amp;gt; MyOtherListProperty = null; // Explicitly null (Ok) The other is to declare the list and initialize it to an empty list.</description>
+    </item>
+    <item>
+      <title>Flushing the ASP.NET Output cache using code</title>
+      <link>https://danesparza.github.io/2013/01/flushing-the-asp-net-output-cache-using-code/</link>
+      <pubDate>Thu, 24 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://danesparza.github.io/2013/01/flushing-the-asp-net-output-cache-using-code/</guid>
+      <description>When looking to speed up content that will be served from an ASP.NET MVC controller, one of the options I evaluate is the built in Output caching mechanism. Output caching is great because it&amp;rsquo;s easy to setup, easy to maintain and it can give a big improvement for a small amount of code.
+Sometimes, the cached item will need to be flushed (and regenerated / recached). The built in mechanisms for handling this &amp;ndash; using cache expiration, or varying the cached output by one of many parameters &amp;ndash; handle most use cases pretty easily.</description>
+    </item>
+    <item>
+      <title>Managing a job hunt: Part 3 (phone screens)</title>
+      <link>https://danesparza.github.io/2012/10/managing-the-job-hunt-phone-screens/</link>
+      <pubDate>Mon, 29 Oct 2012 00:00:00 +0000</pubDate>
+      <guid>https://danesparza.github.io/2012/10/managing-the-job-hunt-phone-screens/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;This post is the third in a series of posts about managing a programmer job hunt (including hunting for a job in another city). You might be interested in the other parts:&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Part 1 (the initial research)&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;Part 2 (the sanity check)&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Managing a job hunt: Part 2 (the sanity check)</title>
+      <link>https://danesparza.github.io/2012/10/job-hunt-sanity-check/</link>
+      <pubDate>Mon, 15 Oct 2012 00:00:00 +0000</pubDate>
+      <guid>https://danesparza.github.io/2012/10/job-hunt-sanity-check/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;This post is the second in a series of posts about managing a programmer job hunt (including hunting for a job in another city).  You might be interested in the other parts:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://danesparza.net/2012/08/job-hunt-research/&#34;&gt;Part 1 (the initial research)&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Managing a job hunt: Part 1 (the initial research)</title>
+      <link>https://danesparza.github.io/2012/08/job-hunt-research/</link>
+      <pubDate>Mon, 13 Aug 2012 00:00:00 +0000</pubDate>
+      <guid>https://danesparza.github.io/2012/08/job-hunt-research/</guid>
+      <description>&lt;p&gt;I recently &lt;!-- raw HTML omitted --&gt;switched jobs&lt;!-- raw HTML omitted --&gt; (and &lt;!-- raw HTML omitted --&gt;switched states&lt;!-- raw HTML omitted --&gt;) and used several approaches that I haven&amp;rsquo;t heard used anywhere else, so I wanted to share what worked and what didn&amp;rsquo;t work.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Using MS Onenote to manage bug and release information</title>
+      <link>https://danesparza.github.io/2012/04/using-ms-onenote-to-manage-bug-and-release-information/</link>
+      <pubDate>Wed, 04 Apr 2012 00:00:00 +0000</pubDate>
+      <guid>https://danesparza.github.io/2012/04/using-ms-onenote-to-manage-bug-and-release-information/</guid>
+      <description>&lt;h3 id=&#34;the-problem&#34;&gt;The problem&lt;/h3&gt;
+&lt;p&gt;Interruptions &lt;!-- raw HTML omitted --&gt;cause a real problem with lost time&lt;!-- raw HTML omitted --&gt; during software development. &lt;!-- raw HTML omitted --&gt;Jeff Atwood&lt;!-- raw HTML omitted --&gt; summarizes this nicely:&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h3 id=&#34;the-solution-taking-notes&#34;&gt;The solution: taking notes&lt;/h3&gt;
+&lt;p&gt;We&amp;rsquo;re already using the computer to program, I figure it makes more sense to take notes on the computer (vs pen and paper). After trying to use Evernote and getting frustrated with the lack of a decent print view or formatting options, I chose &lt;!-- raw HTML omitted --&gt;MS Onenote&lt;!-- raw HTML omitted --&gt; and haven&amp;rsquo;t looked back.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Using wildcards with git operations</title>
+      <link>https://danesparza.github.io/2012/01/using-wildcards-with-git-operations/</link>
+      <pubDate>Mon, 09 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://danesparza.github.io/2012/01/using-wildcards-with-git-operations/</guid>
+      <description>I&amp;rsquo;ve been using the awesome &amp;lsquo;git&amp;rsquo; source code control system for the past year now. The transition from Subversion to git was prompted mostly by my desire to use the awesome application hosting platform AppHarbor, but I picked up git with ease and haven&amp;rsquo;t looked back.
+One of the things I&amp;rsquo;ve learned about using git in conjunction with Visual Studio 2010 is that git usually likes to be in control of certain operations.</description>
+    </item>
+    <item>
+      <title>What version of jQuery is a site using?</title>
+      <link>https://danesparza.github.io/2012/01/what-version-of-jquery-is-a-site-using/</link>
+      <pubDate>Wed, 04 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://danesparza.github.io/2012/01/what-version-of-jquery-is-a-site-using/</guid>
+      <description>To quickly find the version of jQuery that a site is using, you can simply type the following into the browser bar of the site:
+javascript:alert(jQuery.fn.jquery) This will get the version of jQuery and display it in a javascript pop-up dialog.</description>
+    </item>
+    <item>
+      <title>Find out if 2 date ranges overlap using Javascript</title>
+      <link>https://danesparza.github.io/2011/07/find-out-if-2-date-ranges-overlap-using-javascript/</link>
+      <pubDate>Tue, 19 Jul 2011 00:00:00 +0000</pubDate>
+      <guid>https://danesparza.github.io/2011/07/find-out-if-2-date-ranges-overlap-using-javascript/</guid>
+      <description>I recently discovered an ingeniously simple way to see if 2 date ranges overlap using only Javascript:
+var e1start = e1.start.getTime(); var e1end = e1.end.getTime(); var e2start = e2.start.getTime(); var e2end = e2.end.getTime(); return (e1start &amp;gt; e2start &amp;amp;&amp;amp; e1start &amp;lt; e2end || e2start &amp;gt; e1start &amp;amp;&amp;amp; e2start &amp;lt; e1end); Simple, eh?
+One more quick note: ff you need extra help with designing your app with Javascript, you can&amp;rsquo;t go wrong with this fantastic book from Douglas Crockford:</description>
+    </item>
+    <item>
+      <title>Fun with Javascript pointers</title>
+      <link>https://danesparza.github.io/2011/07/fun-with-javascript-pointers/</link>
+      <pubDate>Fri, 15 Jul 2011 00:00:00 +0000</pubDate>
+      <guid>https://danesparza.github.io/2011/07/fun-with-javascript-pointers/</guid>
+      <description>I just spent the last hour trying to debug some Javascript code that wasn&amp;rsquo;t working the way I expected. It turns out I was dealing with the shallow copying behavior of Javascript. If you deal in Javascript objects regularly, you need to know this information!
+Here is a quick example that illustrates what I saw while debugging today:
+// First object, with a simple string property args1 = {}; args1.test1 = &amp;quot;blah&amp;quot;; // Second object, &#39;created&#39; from the first args2 = args1; // As you might expect.</description>
+    </item>
+    <item>
+      <title>Using Remember the Milk as a desktop task list</title>
+      <link>https://danesparza.github.io/2011/06/using-remember-the-milk-as-a-desktop-task-list/</link>
+      <pubDate>Wed, 22 Jun 2011 00:00:00 +0000</pubDate>
+      <guid>https://danesparza.github.io/2011/06/using-remember-the-milk-as-a-desktop-task-list/</guid>
+      <description>Using the free and excellent service Remember the Milk as your tasklist is great &amp;ndash; but sometimes you need a nice simple tasklist you can keep close at hand on your desktop.
+If you use Google Chrome as your browser, there is a very easy way to do this.
+In Chrome, visit:
+http://www.rememberthemilk.com/services/modules/googleig/
+(this should bring up your task list in Remember the Milk in a tiny view)
+Then in Chrome, select the &amp;lsquo;wrench&amp;rsquo; icon, select &amp;lsquo;Tools&amp;rsquo;, and then select &amp;lsquo;Create Application Shortcuts&amp;rsquo;.</description>
+    </item>
+    <item>
+      <title>Using the CollectionAssert class in a C# unit test</title>
+      <link>https://danesparza.github.io/2011/06/using-the-collectionassert-class-in-a-c-unit-test/</link>
+      <pubDate>Wed, 15 Jun 2011 00:00:00 +0000</pubDate>
+      <guid>https://danesparza.github.io/2011/06/using-the-collectionassert-class-in-a-c-unit-test/</guid>
+      <description>Unit testing with collections can be tricky, especially when you&amp;rsquo;re trying to compare collections. Enter the lowly &amp;lsquo;CollectionAssert&amp;rsquo; class in C#:
+// Assert: // 1.) These items are not null // 2.) These items are of type MyClass // 3.) The expected collection is the same as the actual collection CollectionAssert.AllItemsAreNotNull(actual); CollectionAssert.AllItemsAreInstancesOfType(actual, typeof(MyClass)); CollectionAssert.AreEqual(expected, actual); // Also: // 4.) The collection we expect to be filled shouldn&#39;t be the same as the empty one // 5.</description>
+    </item>
+    <item>
+      <title>A re-introduction to the Chrome dev tools</title>
+      <link>https://danesparza.github.io/2011/06/a-re-introduction-to-the-chrome-dev-tools/</link>
+      <pubDate>Fri, 10 Jun 2011 00:00:00 +0000</pubDate>
+      <guid>https://danesparza.github.io/2011/06/a-re-introduction-to-the-chrome-dev-tools/</guid>
+      <description>&lt;p&gt;Here is a great presentation on the Chrome developer tools by &lt;!-- raw HTML omitted --&gt;Paul Irish&lt;!-- raw HTML omitted --&gt; and &lt;!-- raw HTML omitted --&gt;Pavel Feldman&lt;!-- raw HTML omitted --&gt;.  PDF notes &lt;!-- raw HTML omitted --&gt;available from Google&lt;!-- raw HTML omitted --&gt;.  A delightful Chrome Developer tools cheatsheet is also available in &lt;!-- raw HTML omitted --&gt;PDF&lt;!-- raw HTML omitted --&gt; and &lt;!-- raw HTML omitted --&gt;PNG&lt;!-- raw HTML omitted --&gt; formats from Paul&amp;rsquo;s colleague &lt;!-- raw HTML omitted --&gt;Boris Smus&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Getting a 401.1 error when using IIS and NTLM security</title>
+      <link>https://danesparza.github.io/2011/06/getting-a-401-1-error-when-using-iis-and-ntlm-security/</link>
+      <pubDate>Fri, 03 Jun 2011 00:00:00 +0000</pubDate>
+      <guid>https://danesparza.github.io/2011/06/getting-a-401-1-error-when-using-iis-and-ntlm-security/</guid>
+      <description>Sometimes as a developer, it&amp;rsquo;s necessary to setup a website on your local IIS system to use NTLM or Windows based authentication. In an effort to make things a bit more secure in the OS, Microsoft has also made things a bit more difficult for developers when trying to setup NTLM locally for a specific website.
+If you find yourself getting a 401.1 error after configuring a local website to use Windows based authentication, follow the directions here and use option 1 if you can.</description>
+    </item>
+    <item>
+      <title>Using jQuery on Google&#39;s CDN but having a plan B</title>
+      <link>https://danesparza.github.io/2011/06/using-jquery-on-googles-cdn-but-having-a-plan-b/</link>
+      <pubDate>Fri, 03 Jun 2011 00:00:00 +0000</pubDate>
+      <guid>https://danesparza.github.io/2011/06/using-jquery-on-googles-cdn-but-having-a-plan-b/</guid>
+      <description>For personal projects or (even not so personal projects) using Google&amp;rsquo;s CDN hosted jQuery libraries is a no brainer. But what happens when you need a plan B? Or what happens when you realize that you need to have a fallback plan just in case Google is banned in a country where you have website visitors?
+Well, the answer is a pretty neat trick I just learned. Taking advantage of the fact that Javascript is loaded synchronously &amp;ndash; you can have a set of script tags that look like this:</description>
+    </item>
+    <item>
+      <title>Using the dig dns tool on Windows 7</title>
+      <link>https://danesparza.github.io/2011/05/using-the-dig-dns-tool-on-windows-7/</link>
+      <pubDate>Tue, 17 May 2011 00:00:00 +0000</pubDate>
+      <guid>https://danesparza.github.io/2011/05/using-the-dig-dns-tool-on-windows-7/</guid>
+      <description>&lt;p&gt;Traditionally, nslookup is the tool of choice when trying to find out information about IP addresses or DNS information in Windows. In the Linux world, nslookup &lt;!-- raw HTML omitted --&gt;has been deprecated&lt;!-- raw HTML omitted --&gt; for a long time. The preferred way to query for dns information from the command line is the &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;Domain Information Groper&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; or &amp;lsquo;&lt;!-- raw HTML omitted --&gt;dig&lt;!-- raw HTML omitted --&gt;&amp;rsquo; dns tool.&lt;/p&gt;
+&lt;p&gt;Interested in learning more about DNS and dig? Check out this book:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.amazon.com/gp/product/0596100574/ref=as_li_ss_il?ie=UTF8&amp;amp;camp=1789&amp;amp;creative=390957&amp;amp;creativeASIN=0596100574&amp;amp;linkCode=as2&amp;amp;tag=theblogofdane-20&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://danesparza.github.io/img/dns_bind.jpg&#34; alt=&#34;Alt text&#34;  /&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;what-can-you-do-with-dig&#34;&gt;What can you do with dig?&lt;/h3&gt;
+&lt;p&gt;Using dig, you can find out what a particular dns server thinks the given host&amp;rsquo;s IP address should be, including a lot of other information that is also very helpful.  For example, running this command:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>jQuery tip:  Operate on more than one item at the same time</title>
+      <link>https://danesparza.github.io/2011/01/jquery-tip-operate-on-more-than-one-item-at-the-same-time/</link>
+      <pubDate>Mon, 24 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://danesparza.github.io/2011/01/jquery-tip-operate-on-more-than-one-item-at-the-same-time/</guid>
+      <description>Sometimes it&amp;rsquo;s useful to perform an action on more than one item on the page at the same time - like when hiding or showing a series of elements all at the same time. With jQuery selector syntax, this is very easy. First, if you&amp;rsquo;re not familiar with basic CSS or jQuery selectors, you should probably start there. Once you&amp;rsquo;re familiar with that basic syntax however, you&amp;rsquo;ll be happy to know you can combine selectors with a comma (using the &amp;lsquo;multiple selector&amp;rsquo; syntax), like this:</description>
+    </item>
+    <item>
+      <title>Using Gravatar images with C# / ASP.NET</title>
+      <link>https://danesparza.github.io/2010/10/using-gravatar-images-with-c-asp-net/</link>
+      <pubDate>Tue, 19 Oct 2010 00:00:00 +0000</pubDate>
+      <guid>https://danesparza.github.io/2010/10/using-gravatar-images-with-c-asp-net/</guid>
+      <description>&lt;p&gt;Including profile pictures in your application from the nifty (and free!) &lt;!-- raw HTML omitted --&gt;gravatar&lt;!-- raw HTML omitted --&gt; service is very easy, assuming you&amp;rsquo;ve already got an &amp;rsquo;email&amp;rsquo; field for your users that you&amp;rsquo;re tracking.&lt;/p&gt;
+&lt;p&gt;To use the system, you just need to form a url that points to the user&amp;rsquo;s profile image (using a hash of their email address) and use that url in an image tag.  The url looks something like this:&lt;/p&gt;
+&lt;p&gt;Format:
+&lt;a href=&#34;http://www.gravatar.com/avatar/%7Bmd5&#34;&gt;http://www.gravatar.com/avatar/{md5&lt;/a&gt; hash}&lt;/p&gt;
+&lt;p&gt;Example:
+&lt;a href=&#34;http://www.gravatar.com/avatar/73543542128f5a067ffc34305eefe48a&#34;&gt;http://www.gravatar.com/avatar/73543542128f5a067ffc34305eefe48a&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;the-basics&#34;&gt;The basics&lt;/h3&gt;
+&lt;p&gt;But how do you create the MD5 hash of the email address?  No problem.  You can use .NET&amp;rsquo;s built-in crytography libraries to help you.  Here is a nice helper function that takes an email address and forms the hash you&amp;rsquo;ll need in the gravatar url:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tips for using jQuery validation</title>
+      <link>https://danesparza.github.io/2010/10/tips-for-using-jquery-validation/</link>
+      <pubDate>Tue, 05 Oct 2010 00:00:00 +0000</pubDate>
+      <guid>https://danesparza.github.io/2010/10/tips-for-using-jquery-validation/</guid>
+      <description>&amp;lt;div id=&amp;quot;content&amp;quot; style=&amp;quot;padding: 10px;&amp;quot;&amp;gt; &amp;lt;form id=&amp;quot;frmTest&amp;quot; method=&amp;quot;get&amp;quot;&amp;gt; Lots of other content here&amp;lt;br /&amp;gt; Lots of other content here&amp;lt;br /&amp;gt; Lots of other content here&amp;lt;br /&amp;gt; Lots of other content here&amp;lt;br /&amp;gt; Lots of other content here&amp;lt;br /&amp;gt; Lots of other content here&amp;lt;br /&amp;gt; &amp;lt;input id=&amp;quot;txtEmail&amp;quot; name=&amp;quot;txtEmail&amp;quot; type=&amp;quot;text&amp;quot; class=&amp;quot;required email&amp;quot;/&amp;gt; &amp;lt;br /&amp;gt; &amp;lt;input id=&amp;quot;txtName&amp;quot; name=&amp;quot;txtName&amp;quot; type=&amp;quot;text&amp;quot; class=&amp;quot;required&amp;quot; minlength=&amp;quot;2&amp;quot;/&amp;gt; &amp;lt;br /&amp;gt; Other content &amp;lt;br /&amp;gt; &amp;lt;button id=&amp;quot;btnValidate&amp;quot; type=&amp;quot;button&amp;quot;&amp;gt;Test validation&amp;lt;/button&amp;gt; &amp;lt;/form&amp;gt; &amp;lt;/div&amp;gt; label.</description>
+    </item>
+    <item>
+      <title>Working with JSON dates in Javascript</title>
+      <link>https://danesparza.github.io/2010/09/working-with-json-dates-in-javascript/</link>
+      <pubDate>Wed, 29 Sep 2010 00:00:00 +0000</pubDate>
+      <guid>https://danesparza.github.io/2010/09/working-with-json-dates-in-javascript/</guid>
+      <description> /Date(1224043200000)/ var date = new Date(parseInt(jsonDate.substr(6))); date.toDateString(); </description>
+    </item>
+    <item>
+      <title>Using HTML 5 local storage</title>
+      <link>https://danesparza.github.io/2010/09/using-html-5-local-storage/</link>
+      <pubDate>Mon, 20 Sep 2010 00:00:00 +0000</pubDate>
+      <guid>https://danesparza.github.io/2010/09/using-html-5-local-storage/</guid>
+      <description>HTML 5 includes a significant bump in what the browser itself can store (up from 4k for total cookie storage to something on the order of 5-10mb). Here&amp;rsquo;s a simple code sample that illustrates how to access local storage in HTML5:
+// First, make sure our browser supports HTML 5 local storage if (typeof(localStorage) == &#39;undefined&#39; ) { alert(&#39;Your browser does not support HTML5 localStorage. Try upgrading.&#39;); } else { try { // saves to the database using key/value localStorage.</description>
+    </item>
+    <item>
+      <title>Using SQL tinyint columns</title>
+      <link>https://danesparza.github.io/2010/09/using-sql-tinyint-columns/</link>
+      <pubDate>Thu, 16 Sep 2010 00:00:00 +0000</pubDate>
+      <guid>https://danesparza.github.io/2010/09/using-sql-tinyint-columns/</guid>
+      <description> DataSet ds = GetDataSetFromStoredProc(&amp;quot;stored_proc_name&amp;quot;, new SqlParameter(&amp;quot;@parameter_name&amp;quot;, value_id)); var retItems = from dstable in ds.Tables[0].AsEnumerable() select new ClassThing() { PrimaryKeyId = dstable.Field&amp;lt;int&amp;gt;(&amp;quot;some_column_name&amp;quot;) }; </description>
+    </item>
+    <item>
+      <title>jQuery API browser</title>
+      <link>https://danesparza.github.io/2010/09/jquery-api-browser/</link>
+      <pubDate>Wed, 15 Sep 2010 00:00:00 +0000</pubDate>
+      <guid>https://danesparza.github.io/2010/09/jquery-api-browser/</guid>
+      <description> </description>
+    </item>
+    <item>
+      <title>Creating a CDN with Amazon Cloudfront</title>
+      <link>https://danesparza.github.io/2010/09/creating-a-cdn-with-amazon-cloudfront/</link>
+      <pubDate>Mon, 13 Sep 2010 00:00:00 +0000</pubDate>
+      <guid>https://danesparza.github.io/2010/09/creating-a-cdn-with-amazon-cloudfront/</guid>
+      <description>Amazon&amp;rsquo;s Cloudfront service is truly awesome. It&amp;rsquo;s a powerful, flexible, inexpensive way to get a content distribution network up and running so that you can play with the big boys on a startup budget.
+Getting up and running is a snap. First, make sure you&amp;rsquo;ve signed up for Amazon web services S3 and Cloudfront services. Signing up is free, but understand that Amazon charges modest fees for both S3 and Cloudfront.</description>
+    </item>
+    <item>
+      <title>Using the jQuery UI &#39;transfer&#39; effect</title>
+      <link>https://danesparza.github.io/2010/09/using-the-jquery-ui-transfer-effect/</link>
+      <pubDate>Sun, 12 Sep 2010 00:00:00 +0000</pubDate>
+      <guid>https://danesparza.github.io/2010/09/using-the-jquery-ui-transfer-effect/</guid>
+      <description>When using the jQuery UI &amp;rsquo;transfer&amp;rsquo; effect for the first time, you might think the effect isn&amp;rsquo;t working. The documentation is sparse, but the call looks simple enough:
+// Use transfer effect $(&amp;quot;#txtProduct&amp;quot;).effect(&amp;quot;transfer&amp;quot;, { to: $(&amp;quot;#test&amp;quot;) }, 1000); If you add this to your page, add the html elements to make this work, and then run this code you&amp;rsquo;ll notice &amp;hellip; absolutely nothing.
+That&amp;rsquo;s because you need to style the actual &amp;rsquo;transfer effect&amp;rsquo; itself.</description>
+    </item>
+    <item>
+      <title>How to delete data from multiple tables at once in SQL</title>
+      <link>https://danesparza.github.io/2010/09/how-do-delete-data-from-multiple-tables-at-once-in-sql/</link>
+      <pubDate>Fri, 10 Sep 2010 00:00:00 +0000</pubDate>
+      <guid>https://danesparza.github.io/2010/09/how-do-delete-data-from-multiple-tables-at-once-in-sql/</guid>
+      <description>The short answer is you can&amp;rsquo;t. But there is a very nice workaround.
+I was perusing StackOverflow and came across this article talking about how to capture information from deleted rows and then use them in a join using the deleted pseudo table:
+How do I delete from multiple tables using INNER JOIN in SQL server - Stack Overflow
+begin transaction; declare @deletedIds table ( id int ); delete t1 /* Notice this next line is using the &#39;deleted&#39; pseudo table: */ output deleted.</description>
+    </item>
+    <item>
+      <title>Performing a join using LINQ</title>
+      <link>https://danesparza.github.io/2010/09/performing-a-join-using-linq/</link>
+      <pubDate>Mon, 06 Sep 2010 00:00:00 +0000</pubDate>
+      <guid>https://danesparza.github.io/2010/09/performing-a-join-using-linq/</guid>
+      <description>So what do you do when you&amp;rsquo;re using the nifty new &amp;rsquo;entity framework&amp;rsquo; and you&amp;rsquo;re getting data back with LINQ queries and you&amp;rsquo;ve reached the point where you want to get data back based on criteria in a related table?
+Well, if you&amp;rsquo;re not using a stored proc to do it for you &amp;ndash; you&amp;rsquo;ve got to do a join.
+The join syntax in LINQ is similar to SQL syntax, but not quite the same.</description>
+    </item>
+    <item>
+      <title>ASP.NET MVC2 custom validation helper</title>
+      <link>https://danesparza.github.io/2010/07/asp-net-mvc2-custom-validation-helper/</link>
+      <pubDate>Tue, 13 Jul 2010 00:00:00 +0000</pubDate>
+      <guid>https://danesparza.github.io/2010/07/asp-net-mvc2-custom-validation-helper/</guid>
+      <description>RedGate reflector and ASP.NET MVC2 rock.
+Using this extension method:
+/// &amp;lt;summary&amp;gt; /// If the given model field has validation errors, this will emit the given CSS class name /// &amp;lt;/summary&amp;gt; /// &amp;lt;typeparam name=&amp;quot;TModel&amp;quot;&amp;gt;&amp;lt;/typeparam&amp;gt; /// &amp;lt;typeparam name=&amp;quot;TProperty&amp;quot;&amp;gt;&amp;lt;/typeparam&amp;gt; /// &amp;lt;param name=&amp;quot;htmlHelper&amp;quot;&amp;gt;&amp;lt;/param&amp;gt; /// &amp;lt;param name=&amp;quot;expression&amp;quot;&amp;gt;&amp;lt;/param&amp;gt; /// &amp;lt;param name=&amp;quot;cssClassToEmit&amp;quot;&amp;gt;&amp;lt;/param&amp;gt; /// &amp;lt;returns&amp;gt;&amp;lt;/returns&amp;gt; public static MvcHtmlString ValidationCSSClassFor&amp;lt;TModel, TProperty&amp;gt;(this HtmlHelper&amp;lt;TModel&amp;gt; htmlHelper, Expression&amp;lt;Func&amp;lt;TModel, TProperty&amp;gt;&amp;gt; expression, string cssClassToEmit) { MvcHtmlString htmlString = null; // Figure out the expression text from the LambdaExpression using our nifty helper // (thank God for RedGate reflector or I would have never figured this one out) string expressionText = ExpressionHelper.</description>
+    </item>
+  </channel>
+</rss>

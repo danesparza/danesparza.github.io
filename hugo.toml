@@ -1,0 +1,125 @@
+baseURL = 'https://danesparza.github.io/'
+languageCode = 'en-us'
+title = 'The Blog of Dan Esparza'
+theme = 'PaperMod'
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+googleAnalytics = "G-TFXLP6XXZW"
+pygmentsUseClasses = true
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+env = "production"
+title = "danesparza.net"
+description = "The Blog of Dan Esparza"
+keywords = [ "Blog", "Portfolio", "PaperMod" ]
+author = "Dan Esparza"
+images = [ "<link or path of image for opengraph, twitter-cards>" ]
+DateFormat = "January 2, 2006"
+defaultTheme = "auto"
+disableThemeToggle = false
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = false
+ShowBreadCrumbs = false
+ShowCodeCopyButtons = true
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = true
+tocopen = true
+
+  [params.assets]
+  favicon = "/favicon.png"
+  # favicon16x16 = "<link / abs url>"
+  # favicon32x32 = "<link / abs url>"
+  apple_touch_icon = "/apple-touch-icon-144-precomposed.png"
+  # safari_pinned_tab = "<link / abs url>"
+
+  [params.label]
+  text = "The Blog of Dan Esparza"
+  icon = "/img/logo.png"
+  iconHeight = 35
+
+  [params.profileMode]
+  enabled = false
+  title = "ExampleSite"
+  subtitle = "This is subtitle"
+  imageUrl = "<img location>"
+  imageWidth = 120
+  imageHeight = 120
+  imageTitle = "my image"
+
+    [[params.profileMode.buttons]]
+    name = "Posts"
+    url = "posts"
+
+    [[params.profileMode.buttons]]
+    name = "Tags"
+    url = "tags"
+
+#[params.analytics.google]
+#SiteVerificationTag = "XYZabc"
+
+#[params.analytics.bing]
+#SiteVerificationTag = "XYZabc"
+
+#[params.analytics.yandex]
+#SiteVerificationTag = "XYZabc"
+
+  [params.cover]
+  hidden = true
+  hiddenInList = true
+  hiddenInSingle = true
+
+  [params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1_000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = [ "title", "permalink", "summary", "content" ]
+
+[[menu.main]]
+identifier = "archives"
+name = "archives"
+url = "/archives/"
+weight = 10
+
+[[menu.main]]
+identifier = "search"
+name = "search"
+url = "/search/"
+weight = 20
+
+#[[menu.main]]
+#identifier = "example"
+#name = "example.org"
+#url = "https://example.org"
+#weight = 30
+
+[markup.highlight]
+noClasses = false
+anchorLineNos = true
+codeFences = true
+guessSyntax = true
+# lineNos = true
+style = "base16-snazzy"
+
+[module]
+[[module.imports]]
+    path = 'github.com/adityatelange/hugo-PaperMod'

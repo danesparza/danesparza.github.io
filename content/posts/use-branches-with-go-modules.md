@@ -10,13 +10,13 @@ But how do you use [Go modules](https://go.dev/blog/using-go-modules) with a bra
 
 The official guidance involves using the specific commit hash for the module you want, like this:
 
-```
+``` go
 go get github.com/someone/some_module@af044c0995fe
 ```
 
 Or hand-editing the `go.mod` file to include that specific commit hash, like this:
 
-```
+``` go
 module /my/module
 
 require (
@@ -30,7 +30,7 @@ But finding that hash can be tricky sometimes. And what if you just want to make
 
 Lucky for us, there is a simpler solution: Use the branch name when using the replace directive. It looks like this at the bottom of your `go.mod` file:
 
-```
+``` go
 replace github.com/owner/repo-name => github.com/owner/repo-name branch-name
 ```
 

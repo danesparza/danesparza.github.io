@@ -8,10 +8,13 @@ I do a lot of development with websites in Visual Studio 2013 nowadays. I've dis
 ### Update your web.config
 Make sure your web.config file both enables windows authentication and also denies anonymous authentication.  `HttpContext.Current.User.Identity.Name` will be blank if the app falls through to anonymous authentication.  Your config should look something like this: 
 
-	<authentication mode="Windows" />
-	<authorization>
-		<deny users="?"/>
-	</authorization>
+```xml
+<authentication mode="Windows" />
+<authorization>
+    <deny users="?"/>
+</authorization>
+```
+	
 
 ### Error 401.2 Unauthorized
 Sometimes, you might get the `401.2 Unauthorized: Logon failed due to server configuration` error.  If you do, [verify that you have permission to view this directory or page based](http://technet.microsoft.com/en-us/library/bb727008.aspx) on the credentials you supplied.  Also make sure you have the authentication methods enabled on the Web server.
@@ -27,12 +30,15 @@ or
 
 Once you find it, update the following lines (paying special attention to `enabled=true`):
 
-	<windowsAuthentication enabled="true">
-		<providers>
-			<add value="Negotiate" />
-			<add value="NTLM" />
-	   	</providers>
-	</windowsAuthentication>
+```xml
+<windowsAuthentication enabled="true">
+    <providers>
+        <add value="Negotiate" />
+        <add value="NTLM" />
+    </providers>
+</windowsAuthentication>
+```
+	
 
 
 

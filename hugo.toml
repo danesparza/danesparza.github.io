@@ -118,4 +118,4 @@ anchorLineNos = true
 codeFences = true
 guessSyntax = true
 # lineNos = true
-style = "base16-snazzy"
+style = 'onedark'

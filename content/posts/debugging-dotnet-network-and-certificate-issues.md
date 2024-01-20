@@ -32,44 +32,46 @@ Instead, you need to open Microsoft Management console, add the 'Certificates' p
 ### You can trace network calls made with .NET automatically
 While reading through the [certificate troubleshooting steps on Jeff Sander's blog](https://blogs.msdn.com/b/jpsanders/archive/2009/09/16/troubleshooting-asp-net-the-remote-certificate-is-invalid-according-to-the-validation-procedure.aspx?Redirected=true), I realized Jeff also walks you through turning on tracing for internal .NET network and security calls.  It's as easy as including some additional stuff in your application's config file:
 
-	<configuration>
-	    <system.diagnostics>
-	    <trace autoflush="true" />
-	    <sources>
-	    	<source name="System.Net">
-	            <listeners>
-	    			<add name="System.Net"/>
-	            </listeners>
-	    </source>
-	    <source name="System.Net.HttpListener">
-	            <listeners>
-	    			<add name="System.Net"/>
-	            </listeners>
-	    </source>
-		<source name="System.Net.Sockets">
-	            <listeners>
-	    			<add name="System.Net"/>
-	            </listeners>
-	    </source>
-		<source name="System.Net.Cache">
-	            <listeners>
-	    			<add name="System.Net"/>
-	            </listeners>
-	    </source>
-	    </sources>
-	        <sharedListeners>
-	            <add name="System.Net" 
-	             type="System.Diagnostics.TextWriterTraceListener" 
-	             initializeData="System.Net.trace.log" 
-	             traceOutputOptions = "ProcessId, DateTime"/>
-	        </sharedListeners>
-	    <switches>
-	        <add name="System.Net" value="Verbose" />
-	        <add name="System.Net.Sockets" value="Verbose" />
-	        <add name="System.Net.Cache" value="Verbose" />
-	        <add name="System.Net.HttpListener" value="Verbose" />
-	    </switches>
-	    </system.diagnostics>
-	</configuration>
+```xml
+<configuration>
+    <system.diagnostics>
+    <trace autoflush="true" />
+    <sources>
+        <source name="System.Net">
+            <listeners>
+                <add name="System.Net"/>
+            </listeners>
+    </source>
+    <source name="System.Net.HttpListener">
+            <listeners>
+                <add name="System.Net"/>
+            </listeners>
+    </source>
+    <source name="System.Net.Sockets">
+            <listeners>
+                <add name="System.Net"/>
+            </listeners>
+    </source>
+    <source name="System.Net.Cache">
+            <listeners>
+                <add name="System.Net"/>
+            </listeners>
+    </source>
+    </sources>
+        <sharedListeners>
+            <add name="System.Net" 
+             type="System.Diagnostics.TextWriterTraceListener" 
+             initializeData="System.Net.trace.log" 
+             traceOutputOptions = "ProcessId, DateTime"/>
+        </sharedListeners>
+    <switches>
+        <add name="System.Net" value="Verbose" />
+        <add name="System.Net.Sockets" value="Verbose" />
+        <add name="System.Net.Cache" value="Verbose" />
+        <add name="System.Net.HttpListener" value="Verbose" />
+    </switches>
+    </system.diagnostics>
+</configuration>
+```
 
 Using this method, I was able to easily see a certificate validation error with a self-signed cert that I was using.  Without it, I was flying blind.

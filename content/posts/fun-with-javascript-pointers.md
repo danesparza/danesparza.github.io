@@ -7,43 +7,46 @@ I just spent the last hour trying to debug some Javascript code that wasn't work
 
 Here is a quick example that illustrates what I saw while debugging today:
 
-	// First object, with a simple string property
-	args1 = {};
-	args1.test1 = "blah";
+```javascript
+// First object, with a simple string property
+args1 = {};
+args1.test1 = "blah";
 
-	// Second object, 'created' from the first
-	args2 = args1;
+// Second object, 'created' from the first
+args2 = args1;
 
-	// As you might expect...
-	// args2.test1 is "blah"
+// As you might expect...
+// args2.test1 is "blah"
 
-	// Set the property to something different
-	// on the second object
-	args2.test1 = "boo!";
+// Set the property to something different
+// on the second object
+args2.test1 = "boo!";
 
-	// But wait -- the objects are linked!
-	// args1.test1 is now "boo!" too!
+// But wait -- the objects are linked!
+// args1.test1 is now "boo!" too!
+```
 
 As you can see -- the two objects ended up being 'linked' to each other due to the nature of how Javascript 'shallow copies' work with objects.
 
 Spotting this in your code is the hard part.  The way to work around this is simple (as long as you're using jQuery):
 
-	// First object, with a simple string property
-	args1 = {};
-	args1.test1 = "blah";
+```javascript
+// First object, with a simple string property
+args1 = {};
+args1.test1 = "blah";
 
-	// Second object, deep copied from the first
-	args3 = $.extend(true, {}, args1)
+// Second object, deep copied from the first
+args3 = $.extend(true, {}, args1)
 
-	// As you might expect...
-	// args3.test1 is "blah"
+// As you might expect...
+// args3.test1 is "blah"
 
-	// Set the property to something different
-	// on the second object
-	args3.test1 = "boo!";
+// Set the property to something different
+// on the second object
+args3.test1 = "boo!";
 
-	// The objects are not linked
-	// args1.test1 is "blah" 
-
+// The objects are not linked
+// args1.test1 is "blah" 
+```
 
 For more information, see <a href="http://goo.gl/lwwNS">this answer on StackOverflow</a> (by John Resig himself).

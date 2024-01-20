@@ -5,12 +5,14 @@ title: "Find out if 2 date ranges overlap using Javascript"
 ---
 I recently discovered an ingeniously simple way to see if 2 date ranges overlap using only Javascript:
 
-	var e1start = e1.start.getTime();
-	var e1end = e1.end.getTime();
-	var e2start = e2.start.getTime();
-	var e2end = e2.end.getTime();
- 
-	return (e1start > e2start && e1start < e2end || e2start > e1start && e2start < e1end);
+```javascript
+var e1start = e1.start.getTime();
+var e1end = e1.end.getTime();
+var e2start = e2.start.getTime();
+var e2end = e2.end.getTime();
+
+return (e1start > e2start && e1start < e2end || e2start > e1start && e2start < e1end);
+```
 
 Simple, eh?
 

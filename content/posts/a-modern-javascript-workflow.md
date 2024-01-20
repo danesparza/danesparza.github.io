@@ -6,26 +6,26 @@ url: /2015/10/modern-javascript-workflow
 
 Let's talk about your development workflow.  If you're still including all of your scripts in your pages using a `<script>` tag, you're doing it wrong.  A modern front-end workflow includes some kind of **dependency management** solution, and some kind of **bundling / minification** process. 
 
-### Prereqs: Package management and Git console
-##### npm
+## Prereqs: Package management and Git console
+### npm
 Even if you don't use [Node.js](https://nodejs.org/) for your server **use [npm](https://docs.npmjs.com/getting-started/what-is-npm) for managing your client-side dependencies**.  It really makes adding and removing compenents a breeze!  
 
 To get npm, just install Node.  Installation is a snap, and should only take a few minutes.  [Installers are available for all platforms](https://nodejs.org/).
 
-##### package.json
+### package.json
 Also take a few minutes to [understand the package.json](http://browsenpm.org/package.json) file format.  It's basically an npm project file for your app -- it tells npm things about your app, your app dependencies, and your development time dependencies (like script bundlers and transpilers).  It's a pretty [widely adopted standard](https://github.com/search?q=package.json&type=Code&utf8=%E2%9C%93) now. 
 
-##### A command line with less suck
+### A command line with less suck
 If you're doing development in Windows, the built-in console sucks.  Try installing [MsysGit for windows](https://git-for-windows.github.io/) and just opening a Git bash prompt on your development directory (by right-clicking on it and selecting 'Git Bash here').  Then you get tab-completion, history, and lovely colored output all for free!
 
-### Dependency management
-##### Browserify
+## Dependency management
+### Browserify
 For dependency management, I prefer [Browserify](http://browserify.org/) and npm.  Browserify provides a Node flavored way to `require` javascript modules.  For example, including the excellent [MomentJS library](http://momentjs.com/) in your code is as simple as adding `var Moment = require('moment');` to your javascript source.
 
-##### uglify
+### uglify
 For building/minification I prefer a simple [npm script](https://github.com/danesparza/Dashboard/blob/master/package.json#L48) and the unfortunately named [uglify](https://github.com/mishoo/UglifyJS2).  This, combined with the `package.json` file provide a very nice way to install all the script dependencies your app requires.  
 
-##### Babel
+### Babel
 With ES6 (the next version of Javascript) right around the corner, why not start using those new features now?  Yes.  Even if your current browser doesn't support them.  
 
 How?  Using a **transpiler**, of course!  
@@ -34,12 +34,12 @@ I prefer using [Babel](https://babeljs.io/) as a transpiler (which is also quick
 
 [Learn more about ES6 (also called ES2015) here](https://babeljs.io/docs/learn-es2015/).  In the meantime ... 
 
-##### Installing it all
+## Installing it all
 To install Browserify, uglify and Babel using npm, drop to a command line and run:
 
 	npm install -g browserify uglify-js babel
 
-### Tying it all together
+## Tying it all together
 A package.json from [my most recent single-page-application](https://github.com/danesparza/Dashboard) looks like this:
 
 	{

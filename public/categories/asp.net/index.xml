@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ASP.NET on The Blog of Dan Esparza</title>
-    <link>https://danesparza.github.io/categories/asp.net/</link>
+    <link>http://localhost:1313/categories/asp.net/</link>
     <description>Recent content in ASP.NET on The Blog of Dan Esparza</description>
     <image>
       <title>The Blog of Dan Esparza</title>
-      <url>https://danesparza.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://danesparza.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 24 Jan 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://danesparza.github.io/categories/asp.net/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/asp.net/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Flushing the ASP.NET Output cache using code</title>
-      <link>https://danesparza.github.io/2013/01/flushing-the-asp-net-output-cache-using-code/</link>
+      <link>http://localhost:1313/2013/01/flushing-the-asp-net-output-cache-using-code/</link>
       <pubDate>Thu, 24 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>https://danesparza.github.io/2013/01/flushing-the-asp-net-output-cache-using-code/</guid>
+      <guid>http://localhost:1313/2013/01/flushing-the-asp-net-output-cache-using-code/</guid>
       <description>When looking to speed up content that will be served from an ASP.NET MVC controller, one of the options I evaluate is the built in Output caching mechanism. Output caching is great because it&amp;rsquo;s easy to setup, easy to maintain and it can give a big improvement for a small amount of code.
 Sometimes, the cached item will need to be flushed (and regenerated / recached). The built in mechanisms for handling this &amp;ndash; using cache expiration, or varying the cached output by one of many parameters &amp;ndash; handle most use cases pretty easily.</description>
     </item>
     <item>
       <title>Managing a job hunt: Part 1 (the initial research)</title>
-      <link>https://danesparza.github.io/2012/08/job-hunt-research/</link>
+      <link>http://localhost:1313/2012/08/job-hunt-research/</link>
       <pubDate>Mon, 13 Aug 2012 00:00:00 +0000</pubDate>
-      <guid>https://danesparza.github.io/2012/08/job-hunt-research/</guid>
+      <guid>http://localhost:1313/2012/08/job-hunt-research/</guid>
       <description>&lt;p&gt;I recently &lt;!-- raw HTML omitted --&gt;switched jobs&lt;!-- raw HTML omitted --&gt; (and &lt;!-- raw HTML omitted --&gt;switched states&lt;!-- raw HTML omitted --&gt;) and used several approaches that I haven&amp;rsquo;t heard used anywhere else, so I wanted to share what worked and what didn&amp;rsquo;t work.&lt;/p&gt;</description>
     </item>
   </channel>
